@@ -23,7 +23,9 @@ Follow the steps written in the 'instruction document.pdf' to upload the require
 
 
 (If pip3 doesn't work, use pip; it might be a minor bug related to the Python version.)
+
 ■■■■■■■■■■■■■■  library  ■■■■■■■■■■■■■■
+
 
 
 # Step3.Create a new folder and place quickstart.py, google_api_try.py, and Google.py inside it.
@@ -34,6 +36,7 @@ Follow the steps written in the 'instruction document.pdf' to upload the require
 
 
 ■■■■■■■■■■  adjust parameter  ■■■■■■■■■■
+
 folder_id = '1opml0Gw3TYmXT1qid9LiX1yGKTaz688z'
 
 //Paste the desired Google Drive folder ID where you want to place the items.
@@ -56,3 +59,4 @@ media = MediaFileUpload('me.jpeg', mimetype='image/jpeg', resumable=True)
 //Re-enter the filename and configure the data in the upload feature of the MediaFileUpload function, setting resumable to True.
 
 ■■■■■■■■■■  adjust parameter  ■■■■■■■■■■
+
