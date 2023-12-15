@@ -1,9 +1,9 @@
 # Google-API-Cloud-Uploading-Image
 Follow the steps written in the 'instruction document.pdf' to upload the required image categories to the cloud drive via the Google API.
 
-# Step1.[Google API Tutorial] How to apply for OAuth 2.0 credentials? I'll demonstrate using the Google Drive API for you.
+Step1.[Google API Tutorial] How to apply for OAuth 2.0 credentials? I'll demonstrate using the Google Drive API for you.
 
-# Step2.In continuation of the previous document, when achieving "Authorize OAuth to Fetch Google Drive File Names using Python," before pasting the code, install the required modules using the following seven commands:
+Step2.In continuation of the previous document, when achieving "Authorize OAuth to Fetch Google Drive File Names using Python," before pasting the code, install the required modules using the following seven commands:
 
 ■■■■■■■■■■■■■■  library  ■■■■■■■■■■■■■■
 
@@ -28,11 +28,11 @@ Follow the steps written in the 'instruction document.pdf' to upload the require
 
 
 
-# Step3.Create a new folder and place quickstart.py, google_api_try.py, and Google.py inside it.
+Step3.Create a new folder and place quickstart.py, google_api_try.py, and Google.py inside it.
 
-# Step4.After running quickstart.py (refer to the Google technical documentation for details), a credentials.json file will be generated.
+Step4.After running quickstart.py (refer to the Google technical documentation for details), a credentials.json file will be generated.
 
-# Step5.Before executing google_try_api.py, adjust the following parameters.
+Step5.Before executing google_try_api.py, adjust the following parameters.
 
 
 ■■■■■■■■■■  adjust parameter  ■■■■■■■■■■
