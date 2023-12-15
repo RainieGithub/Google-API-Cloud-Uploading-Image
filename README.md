@@ -39,23 +39,23 @@ Step5.Before executing google_try_api.py, adjust the following parameters.
 
 folder_id = '1opml0Gw3TYmXT1qid9LiX1yGKTaz688z'
 
-# Paste the desired Google Drive folder ID where you want to place the items.
+//Paste the desired Google Drive folder ID where you want to place the items.
 
 
 
 file_names = ['me.jpeg']
 
-# Paste the desired files and their names.
+//Paste the desired files and their names.
 
 
 
 mime_types = ['image/jpeg']
 
-# Find corresponding mime_types from the following URL. Here, an image is used as an example, and you can upload any file as long as it is configured properly.
-# https://learndataanalysis.org/commonly-used-mime-types/
+//Find corresponding mime_types from the following URL. Here, an image is used as an example, and you can upload any file as long as it is configured properly.
+//https://learndataanalysis.org/commonly-used-mime-types/
 
 
 media = MediaFileUpload('me.jpeg', mimetype='image/jpeg', resumable=True)
-# Re-enter the filename and configure the data in the upload feature of the MediaFileUpload function, setting resumable to True.
+//Re-enter the filename and configure the data in the upload feature of the MediaFileUpload function, setting resumable to True.
 
 ■■■■■■■■■■  adjust parameter  ■■■■■■■■■■
