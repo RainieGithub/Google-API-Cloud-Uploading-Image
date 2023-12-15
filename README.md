@@ -4,7 +4,7 @@ Follow the steps written in the 'instruction document.pdf' to upload the require
 Step1.[Google API Tutorial] How to apply for OAuth 2.0 credentials? I'll demonstrate using the Google Drive API for you.
 Step2.In continuation of the previous document, when achieving "Authorize OAuth to Fetch Google Drive File Names using Python," before pasting the code, install the required modules using the following seven commands:
 
-■■■■■■■■■■■■■■■■■■■■■■■■■■■■■  library  ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+■■■■■■■■■■■■■■  library  ■■■■■■■■■■■■■■
 ■ pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 ■ pip3 install google-cloud
 ■ pip3 install google-cloud-vision
@@ -13,7 +13,7 @@ Step2.In continuation of the previous document, when achieving "Authorize OAuth 
 ■ pip3 install oauth2client     #############(IMPORTANT)#############
 ■ pip3 install gspread
 (If pip3 doesn't work, use pip; it might be a minor bug related to the Python version.)
-■■■■■■■■■■■■■■■■■■■■■■■■■■■■■  library  ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+■■■■■■■■■■■■■■  library  ■■■■■■■■■■■■■■
 
 
 Step3.Create a new folder and place quickstart.py, google_api_try.py, and Google.py inside it.
@@ -21,7 +21,7 @@ Step4.After running quickstart.py (refer to the Google technical documentation f
 Step5.Before executing google_try_api.py, adjust the following parameters.
 
 
-■■■■■■■■■■■■■■■■■■■■■■■■■  adjust parameter  ■■■■■■■■■■■■■■■■■■■■■■■■■■
+■■■■■■■■■■  adjust parameter  ■■■■■■■■■■
 folder_id = '1opml0Gw3TYmXT1qid9LiX1yGKTaz688z'
 # Paste the desired Google Drive folder ID where you want to place the items.
 
@@ -37,3 +37,5 @@ mime_types = ['image/jpeg']
 
 media = MediaFileUpload('me.jpeg', mimetype='image/jpeg', resumable=True)
 # Re-enter the filename and configure the data in the upload feature of the MediaFileUpload function, setting resumable to True.
+
+■■■■■■■■■■  adjust parameter  ■■■■■■■■■■
