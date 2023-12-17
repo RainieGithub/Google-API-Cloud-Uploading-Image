@@ -7,19 +7,19 @@
 
 ■■■■■■■■■■■■■■  library  ■■■■■■■■■■■■■■
 
-* pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib *
+*pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib*
 
-* pip3 install google-cloud *
+*pip3 install google-cloud*
 
-* pip3 install google-cloud-vision *
+*pip3 install google-cloud-vision*
 
-* pip3 install google.cloud.bigquery pip install google.cloud.storage *
+*pip3 install google.cloud.bigquery pip install google.cloud.storage*
 
-* pip3 install google *
+*pip3 install google*
 
-* pip3 install oauth2client     #############(IMPORTANT)############# *
+*pip3 install oauth2client*
 
-* pip3 install gspread *
+*pip3 install gspread*
 
 
 (If pip3 doesn't work, use pip; it might be a minor bug related to the Python version.)
@@ -39,24 +39,24 @@
 
 folder_id = '1opml0Gw3TYmXT1qid9LiX1yGKTaz688z'
 
-* Paste the desired Google Drive folder ID where you want to place the items. *
+*Paste the desired Google Drive folder ID where you want to place the items.*
 
 
 file_names = ['me.jpeg']
 
-* Paste the desired files and their names. *
+*Paste the desired files and their names.*
 
 
 mime_types = ['image/jpeg']
 
-* Find corresponding mime_types from the following URL. Here, an image is used as an example, and you can upload any file as long as it is configured properly. *
+*Find corresponding mime_types from the following URL. Here, an image is used as an example, and you can upload any file as long as it is configured properly.*
 
-* https://learndataanalysis.org/commonly-used-mime-types/ *
+*https://learndataanalysis.org/commonly-used-mime-types/*
 
 
 media = MediaFileUpload('me.jpeg', mimetype='image/jpeg', resumable=True)
 
-* Re-enter the filename and configure the data in the upload feature of the MediaFileUpload function, setting resumable to True. *
+*Re-enter the filename and configure the data in the upload feature of the MediaFileUpload function, setting resumable to True.*
 
 ■■■■■■■■■■  adjust parameter  ■■■■■■■■■■
 
